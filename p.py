@@ -16,7 +16,7 @@ from apscheduler.jobstores.base import JobLookupError
 # ------------------------------------------------------------
 # 1. Konfigurace a data
 # ------------------------------------------------------------
-TOKEN = "8514852844:AAFP5pYdkbOFIieo3oGEvhM3sDGJX7yVKKY"
+TOKEN = ""
 
 bot = telebot.TeleBot(TOKEN, parse_mode="HTML")
 scheduler = BackgroundScheduler(timezone="UTC")
